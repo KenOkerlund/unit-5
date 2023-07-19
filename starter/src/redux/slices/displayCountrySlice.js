@@ -12,9 +12,9 @@ export const displayCountrySlice = createSlice({
         },
         deleteDisplayCountry: (state) => {
             state.value = null;
-        }
-    }
-})
+        },
+    },
+});
 
 export const {setDisplayCountry, deleteDisplayCountry} = displayCountrySlice.actions;
 
